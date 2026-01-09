@@ -1,0 +1,9 @@
+Cloud Formation:
+- Create Stack
+- Exisiting Template -> Template file -> Yaml file
+
+S3 Bucket Naming Convention:
+- Unique across AWS
+- Should not contain Uppercase, Underscore, Special Characters
+- Folders can have uppercase, special Characters but not spaces
+- Folders are actually object key prefix
