@@ -1,0 +1,32 @@
+Types of Data:
+- Structuted -PostgresSQL, MySQL, Redshift
+- Unstructured - Email, Files, Mutli-media
+- Semistructured - XML, JSON, HTML
+
+Properties of Data:
+- Volume
+Large Volume- EMR Small Volume - Lambda
+- Velocity
+- Variety
+
+Data Warehouse:
+- Central repo to store structured Data
+- Schema on write
+- Ex: Amazon Redshift, Snowflake, Bigquery
+- High Cost
+
+Data Lake:
+- Central repo to store structured, Unstructured, Semistructured data
+- Schema on Read
+- Ex: S3, Apache Hadoop, Azure Data Lake Storage
+- Low Cost
+
+Data Lakehouse:
+- Structured ,Unstructured, Semistructured Data
+- Schema on write and Schema on Read
+- Ex: Databricks, Google BigLake
+- Medium Cost
+
+Data Mesh:
+- Decentralised Data Architecture for each domain
+- Data as Product Concept
