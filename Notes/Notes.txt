@@ -30,3 +30,54 @@ Data Lakehouse:
 Data Mesh:
 - Decentralised Data Architecture for each domain
 - Data as Product Concept
+
+Orchestration:
+- Automated Coordination of Workflow
+- Ex: Airflow, AWS Step Function
+
+How is data stored:
+1. CSV
+2. JSON
+3. XML
+4. Apache Parquet
+
+Data Sources:
+1. Databases
+2. Datwarehouse
+3. Data Lakes
+4. Flat Files
+
+Data Modeling: 
+- Visual Representation of Data Structure
+1. Conceptual
+2. Logical
+3. Physical
+
+Data Lineage:
+- Track flow of data
+
+Schema Evolution:
+- Managing schema of data
+
+Data Sampling:
+- Statistical technique to select smaller dataset from larger dataset
+- Population: complete set
+- Sample: subset from population
+- Sampling Frame: list of population elements Ex: Database of all population
+- Sampling Error: difference between population and sample due to sampling
+- Sample Size: Total number of units in sample
+
+Data Skewness:
+- Asymmetry in distribution of data values
+- Negative skew, Positive skew
+
+Data Validation: ensure data is correct and consistent
+
+Data Profiling: Analysing data
+
+AWS Glue:
+- Fully managed ETL Service
+- Spark ETL Engine
+- Has Central Metadata Repo - Glue Data Catalog
+- Flexible Scheduler
+
