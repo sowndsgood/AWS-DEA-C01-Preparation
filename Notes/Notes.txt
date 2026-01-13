@@ -81,3 +81,11 @@ AWS Glue:
 - Has Central Metadata Repo - Glue Data Catalog
 - Flexible Scheduler
 
+Glue Data Catalog:
+- Persistent Metadata store
+- Metdata means LOcation, data types, schema , data classification
+- One AWS Glue Data Catalog for one AWS Region
+
+Glue Databases:
+- Set of Associated Data Catalog table definition to logical group
+
